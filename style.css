@@ -1,0 +1,26 @@
+.centered{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+.light{
+  background-color: white;
+  border-color: black;
+  color: black;
+}
+.dark{
+  background-color: #2E3033;
+  border-color: white;
+  color: white;
+}
+button {
+  padding:8px;
+  border-radius: 10px;
+  border:1px solid;
+}
+#styleModeBtn{
+  position: fixed;
+  top:5px;
+  right: 5px;
+}

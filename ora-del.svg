@@ -1,0 +1,127 @@
+<svg width="200.000000" height="200.000000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <defs>
+      <filter id="noise">
+          <feTurbulence baseFrequency="0.12" numOctaves="12" type="fractalNoise" result="zaj1"></feTurbulence>
+          <feComposite in="SourceGraphic" in2="zaj1" operator="in" result="9b1445e9-8b1e-4c4a-bd32-b1f908b0d5cd"></feComposite>
+      </filter>
+      <filter id="shadow" x="-0.1" y="-0.1" width="2" height="2">
+          <feOffset dx="1.5" dy="1.5" result="9ea39dcb-e5f4-4381-b9f7-556aa396c64a" in="SourceAlpha"></feOffset>
+          <feGaussianBlur stdDeviation="1" result="ead06728-8ee1-46f3-bf1b-cbcb3b04c03a" in="9ea39dcb-e5f4-4381-b9f7-556aa396c64a"></feGaussianBlur>
+          <feComposite result="51f9ec4a-367f-4a9c-9f9c-fab285a0bf97" in="SourceGraphic" in2="ead06728-8ee1-46f3-bf1b-cbcb3b04c03a"></feComposite>
+      </filter>
+  </defs>
+  <circle cx="100.000000" cy="100.000000" r="90.000000" stroke="black" fill="transparent" stroke-width="6.000000" style="fill:none"/>
+  <circle cx="100.000000" cy="100.000000" r="90.000000" stroke="black" fill="#ede9da" stroke-width="0.000000" filter="url(#noise)"/>
+  <circle cx="100.000000" cy="100.000000" r="87.500000" stroke="#ebdeab" fill="transparent" stroke-width="5.000000" style="fill:none"/>
+  <circle cx="100.000000" cy="100.000000" r="85.000000" stroke="black" fill="transparent" stroke-width="0.500000" style="fill:none"/>
+  <circle cx="100.000000" cy="100.000000" r="78.000000" stroke="black" fill="transparent" stroke-width="0.500000" style="fill:none"/>
+  <circle cx="100.000000" cy="100.000000" r="54.000000" stroke="#ebdeab" fill="transparent" stroke-width="2.000000" style="fill:none"/>
+  <circle cx="100.000000" cy="100.000000" r="55.000000" stroke="black" fill="transparent" stroke-width="0.200000" style="fill:none"/>
+  <circle cx="100.000000" cy="100.000000" r="53.000000" stroke="black" fill="transparent" stroke-width="0.200000" style="fill:none"/>
+  <line x1="185.000000" y1="100.000000" x2="178.000000" y2="100.000000" stroke="black" stroke-width="1.000000" />
+  <line x1="184.534361" y1="108.884919" x2="177.572708" y2="108.153220" stroke="black" stroke-width="1.000000" />
+  <line x1="183.142546" y1="117.672494" x2="176.295513" y2="116.217112" stroke="black" stroke-width="1.000000" />
+  <line x1="180.839804" y1="126.266445" x2="174.182408" y2="124.103326" stroke="black" stroke-width="1.000000" />
+  <line x1="177.651364" y1="134.572615" x2="171.256546" y2="131.725458" stroke="black" stroke-width="1.000000" />
+  <line x1="173.612159" y1="142.500000" x2="167.549981" y2="139.000000" stroke="black" stroke-width="1.000000" />
+  <line x1="168.766445" y1="149.961746" x2="163.103326" y2="145.847250" stroke="black" stroke-width="1.000000" />
+  <line x1="163.167310" y1="156.876102" x2="157.965296" y2="152.192187" stroke="black" stroke-width="1.000000" />
+  <line x1="156.876102" y1="163.167310" x2="152.192187" y2="157.965296" stroke="black" stroke-width="1.000000" />
+  <line x1="149.961746" y1="168.766445" x2="145.847250" y2="163.103326" stroke="black" stroke-width="1.000000" />
+  <line x1="142.500000" y1="173.612159" x2="139.000000" y2="167.549981" stroke="black" stroke-width="1.000000" />
+  <line x1="134.572615" y1="177.651364" x2="131.725458" y2="171.256546" stroke="black" stroke-width="1.000000" />
+  <line x1="126.266445" y1="180.839804" x2="124.103326" y2="174.182408" stroke="black" stroke-width="1.000000" />
+  <line x1="117.672494" y1="183.142546" x2="116.217112" y2="176.295513" stroke="black" stroke-width="1.000000" />
+  <line x1="108.884919" y1="184.534361" x2="108.153220" y2="177.572708" stroke="black" stroke-width="1.000000" />
+  <line x1="100.000000" y1="185.000000" x2="100.000000" y2="178.000000" stroke="black" stroke-width="1.000000" />
+  <line x1="91.115081" y1="184.534361" x2="91.846780" y2="177.572708" stroke="black" stroke-width="1.000000" />
+  <line x1="82.327506" y1="183.142546" x2="83.782888" y2="176.295513" stroke="black" stroke-width="1.000000" />
+  <line x1="73.733555" y1="180.839804" x2="75.896674" y2="174.182408" stroke="black" stroke-width="1.000000" />
+  <line x1="65.427385" y1="177.651364" x2="68.274542" y2="171.256546" stroke="black" stroke-width="1.000000" />
+  <line x1="57.500000" y1="173.612159" x2="61.000000" y2="167.549981" stroke="black" stroke-width="1.000000" />
+  <line x1="50.038254" y1="168.766445" x2="54.152750" y2="163.103326" stroke="black" stroke-width="1.000000" />
+  <line x1="43.123898" y1="163.167310" x2="47.807813" y2="157.965296" stroke="black" stroke-width="1.000000" />
+  <line x1="36.832690" y1="156.876102" x2="42.034704" y2="152.192187" stroke="black" stroke-width="1.000000" />
+  <line x1="31.233555" y1="149.961746" x2="36.896674" y2="145.847250" stroke="black" stroke-width="1.000000" />
+  <line x1="26.387841" y1="142.500000" x2="32.450019" y2="139.000000" stroke="black" stroke-width="1.000000" />
+  <line x1="22.348636" y1="134.572615" x2="28.743454" y2="131.725458" stroke="black" stroke-width="1.000000" />
+  <line x1="19.160196" y1="126.266445" x2="25.817592" y2="124.103326" stroke="black" stroke-width="1.000000" />
+  <line x1="16.857454" y1="117.672494" x2="23.704487" y2="116.217112" stroke="black" stroke-width="1.000000" />
+  <line x1="15.465639" y1="108.884919" x2="22.427292" y2="108.153220" stroke="black" stroke-width="1.000000" />
+  <line x1="15.000000" y1="100.000000" x2="22.000000" y2="100.000000" stroke="black" stroke-width="1.000000" />
+  <line x1="15.465639" y1="91.115081" x2="22.427292" y2="91.846780" stroke="black" stroke-width="1.000000" />
+  <line x1="16.857454" y1="82.327506" x2="23.704487" y2="83.782888" stroke="black" stroke-width="1.000000" />
+  <line x1="19.160196" y1="73.733555" x2="25.817592" y2="75.896674" stroke="black" stroke-width="1.000000" />
+  <line x1="22.348636" y1="65.427385" x2="28.743454" y2="68.274542" stroke="black" stroke-width="1.000000" />
+  <line x1="26.387841" y1="57.500000" x2="32.450019" y2="61.000000" stroke="black" stroke-width="1.000000" />
+  <line x1="31.233555" y1="50.038254" x2="36.896674" y2="54.152750" stroke="black" stroke-width="1.000000" />
+  <line x1="36.832690" y1="43.123898" x2="42.034704" y2="47.807813" stroke="black" stroke-width="1.000000" />
+  <line x1="43.123898" y1="36.832690" x2="47.807813" y2="42.034704" stroke="black" stroke-width="1.000000" />
+  <line x1="50.038254" y1="31.233555" x2="54.152750" y2="36.896674" stroke="black" stroke-width="1.000000" />
+  <line x1="57.500000" y1="26.387841" x2="61.000000" y2="32.450019" stroke="black" stroke-width="1.000000" />
+  <line x1="65.427385" y1="22.348636" x2="68.274542" y2="28.743454" stroke="black" stroke-width="1.000000" />
+  <line x1="73.733555" y1="19.160196" x2="75.896674" y2="25.817592" stroke="black" stroke-width="1.000000" />
+  <line x1="82.327506" y1="16.857454" x2="83.782888" y2="23.704487" stroke="black" stroke-width="1.000000" />
+  <line x1="91.115081" y1="15.465639" x2="91.846780" y2="22.427292" stroke="black" stroke-width="1.000000" />
+  <line x1="100.000000" y1="15.000000" x2="100.000000" y2="22.000000" stroke="black" stroke-width="1.000000" />
+  <line x1="108.884919" y1="15.465639" x2="108.153220" y2="22.427292" stroke="black" stroke-width="1.000000" />
+  <line x1="117.672494" y1="16.857454" x2="116.217112" y2="23.704487" stroke="black" stroke-width="1.000000" />
+  <line x1="126.266445" y1="19.160196" x2="124.103326" y2="25.817592" stroke="black" stroke-width="1.000000" />
+  <line x1="134.572615" y1="22.348636" x2="131.725458" y2="28.743454" stroke="black" stroke-width="1.000000" />
+  <line x1="142.500000" y1="26.387841" x2="139.000000" y2="32.450019" stroke="black" stroke-width="1.000000" />
+  <line x1="149.961746" y1="31.233555" x2="145.847250" y2="36.896674" stroke="black" stroke-width="1.000000" />
+  <line x1="156.876102" y1="36.832690" x2="152.192187" y2="42.034704" stroke="black" stroke-width="1.000000" />
+  <line x1="163.167310" y1="43.123898" x2="157.965296" y2="47.807813" stroke="black" stroke-width="1.000000" />
+  <line x1="168.766445" y1="50.038254" x2="163.103326" y2="54.152750" stroke="black" stroke-width="1.000000" />
+  <line x1="173.612159" y1="57.500000" x2="167.549981" y2="61.000000" stroke="black" stroke-width="1.000000" />
+  <line x1="177.651364" y1="65.427385" x2="171.256546" y2="68.274542" stroke="black" stroke-width="1.000000" />
+  <line x1="180.839804" y1="73.733555" x2="174.182408" y2="75.896674" stroke="black" stroke-width="1.000000" />
+  <line x1="183.142546" y1="82.327506" x2="176.295513" y2="83.782888" stroke="black" stroke-width="1.000000" />
+  <line x1="184.534361" y1="91.115081" x2="177.572708" y2="91.846780" stroke="black" stroke-width="1.000000" />
+  <line x1="185.000000" y1="100.000000" x2="178.000000" y2="100.000000" stroke="black" stroke-width="3.000000" />
+  <path id="curve-1.047198" d="M 116.305600 39.146673 L 144.547727 55.452273" stroke="transparent" fill="transparent"/>
+      <text font-size="14px" font-family="DejaVu, serif"><textPath xlink:href="#curve-1.047198" startOffset="50%" text-anchor="middle">I</textPath></text>
+  <line x1="173.612159" y1="142.500000" x2="167.549981" y2="139.000000" stroke="black" stroke-width="3.000000" />
+  <path id="curve-0.523599" d="M 144.547727 55.452273 L 160.853327 83.694400" stroke="transparent" fill="transparent"/>
+      <text font-size="14px" font-family="DejaVu, serif"><textPath xlink:href="#curve-0.523599" startOffset="50%" text-anchor="middle">II</textPath></text>
+  <line x1="142.500000" y1="173.612159" x2="139.000000" y2="167.549981" stroke="black" stroke-width="3.000000" />
+  <path id="curve0.000000" d="M 160.853327 83.694400 L 160.853327 116.305600" stroke="transparent" fill="transparent"/>
+      <text font-size="14px" font-family="DejaVu, serif"><textPath xlink:href="#curve0.000000" startOffset="50%" text-anchor="middle">III</textPath></text>
+  <line x1="100.000000" y1="185.000000" x2="100.000000" y2="178.000000" stroke="black" stroke-width="3.000000" />
+  <path id="curve0.523599" d="M 160.853327 116.305600 L 144.547727 144.547727" stroke="transparent" fill="transparent"/>
+      <text font-size="14px" font-family="DejaVu, serif"><textPath xlink:href="#curve0.523599" startOffset="50%" text-anchor="middle">IV</textPath></text>
+  <line x1="57.500000" y1="173.612159" x2="61.000000" y2="167.549981" stroke="black" stroke-width="3.000000" />
+  <path id="curve1.047198" d="M 144.547727 144.547727 L 116.305600 160.853327" stroke="transparent" fill="transparent"/>
+      <text font-size="14px" font-family="DejaVu, serif"><textPath xlink:href="#curve1.047198" startOffset="50%" text-anchor="middle">V</textPath></text>
+  <line x1="26.387841" y1="142.500000" x2="32.450019" y2="139.000000" stroke="black" stroke-width="3.000000" />
+  <path id="curve1.570796" d="M 116.305600 160.853327 L 83.694400 160.853327" stroke="transparent" fill="transparent"/>
+      <text font-size="14px" font-family="DejaVu, serif"><textPath xlink:href="#curve1.570796" startOffset="50%" text-anchor="middle">VI</textPath></text>
+  <line x1="15.000000" y1="100.000000" x2="22.000000" y2="100.000000" stroke="black" stroke-width="3.000000" />
+  <path id="curve2.094395" d="M 83.694400 160.853327 L 55.452273 144.547727" stroke="transparent" fill="transparent"/>
+      <text font-size="14px" font-family="DejaVu, serif"><textPath xlink:href="#curve2.094395" startOffset="50%" text-anchor="middle">VII</textPath></text>
+  <line x1="26.387841" y1="57.500000" x2="32.450019" y2="61.000000" stroke="black" stroke-width="3.000000" />
+  <path id="curve2.617994" d="M 55.452273 144.547727 L 39.146673 116.305600" stroke="transparent" fill="transparent"/>
+      <text font-size="14px" font-family="DejaVu, serif"><textPath xlink:href="#curve2.617994" startOffset="50%" text-anchor="middle">VIII</textPath></text>
+  <line x1="57.500000" y1="26.387841" x2="61.000000" y2="32.450019" stroke="black" stroke-width="3.000000" />
+  <path id="curve3.141593" d="M 39.146673 116.305600 L 39.146673 83.694400" stroke="transparent" fill="transparent"/>
+      <text font-size="14px" font-family="DejaVu, serif"><textPath xlink:href="#curve3.141593" startOffset="50%" text-anchor="middle">IX</textPath></text>
+  <line x1="100.000000" y1="15.000000" x2="100.000000" y2="22.000000" stroke="black" stroke-width="3.000000" />
+  <path id="curve3.665191" d="M 39.146673 83.694400 L 55.452273 55.452273" stroke="transparent" fill="transparent"/>
+      <text font-size="14px" font-family="DejaVu, serif"><textPath xlink:href="#curve3.665191" startOffset="50%" text-anchor="middle">X</textPath></text>
+  <line x1="142.500000" y1="26.387841" x2="139.000000" y2="32.450019" stroke="black" stroke-width="3.000000" />
+  <path id="curve4.188790" d="M 55.452273 55.452273 L 83.694400 39.146673" stroke="transparent" fill="transparent"/>
+      <text font-size="14px" font-family="DejaVu, serif"><textPath xlink:href="#curve4.188790" startOffset="50%" text-anchor="middle">XI</textPath></text>
+  <line x1="173.612159" y1="57.500000" x2="167.549981" y2="61.000000" stroke="black" stroke-width="3.000000" />
+  <path id="curve4.712389" d="M 83.694400 39.146673 L 116.305600 39.146673" stroke="transparent" fill="transparent"/>
+    <text font-size="14px" font-family="DejaVu, serif"><textPath xlink:href="#curve4.712389" startOffset="50%" text-anchor="middle">XII</textPath></text>
+  <path id="hour_hand"
+      d=" M 100.000000 120.000000  l 0.000000 -48.750000  c 0.000000 -4.000000 -0.690971 -8.125000 -4.690971 -8.125000  c 4.000000 0.000000 4.690971 -4.125000 4.690971 -8.125000  c -0.000000 4.000000 0.690971 8.125000 4.690971 8.125000  c -4.000000 -0.000000 -4.690971 4.125000 -4.690971 8.125000  l -0.000000 48.750000"
+      stroke="black" stroke-width="2.000000" fill="transparent" style="stroke-linecap:round;stroke-linejoin:miter;fill:none" filter="url(#shadow)"/>
+  <path id="min_hand"
+      d="  M 100.000000 120.000000  l 0.000000 -72.000000  c 0.000000 -5.000000 -0.196152 -9.000000 -5.196152 -9.000000  c 5.000000 0.000000 5.196152 -4.000000 5.196152 -9.000000  c -0.000000 5.000000 0.196152 9.000000 5.196152 9.000000  c -5.000000 -0.000000 -5.196152 4.000000 -5.196152 9.000000  l -0.000000 72.000000"
+      stroke="black" stroke-width="1.200000" fill="transparent" style="stroke-linecap:round;stroke-linejoin:round;fill:none" filter="url(#shadow)"/>
+  <line id="sec_hand"
+      x1="100.000000" y1="120.000000" x2="100.000000" y2="24.000000" stroke="black" stroke-width="0.500000" filter="url(#shadow)"/>
+  <circle cx="100.000000" cy="100.000000" r="2.500000" stroke="black" fill="black" stroke-width="0.000000" />
+  <circle cx="100.000000" cy="100.000000" r="1.000000" stroke="black" fill="#bfb58c" stroke-width="0.000000" />
+</svg>
